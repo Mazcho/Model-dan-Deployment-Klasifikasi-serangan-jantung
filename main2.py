@@ -1,15 +1,18 @@
 #Import Library
 import streamlit as st
-
+import seaborn as sns
 import pandas as pd
 import numpy as np
+import plotly.express as px
 import pickle
 import matplotlib.pyplot as plt
 from sklearn import preprocessing
 from sklearn.ensemble import GradientBoostingClassifier
 
+
 #call Model
-model = pickle.load(open('model.pkl',"rb"))
+with open('model1.pkl', 'rb') as model_file:
+    loaded_model = pickle.load(model_file)
 
 #call data
 #call data
@@ -82,7 +85,7 @@ with tab2:
 
     #tombol prediksi
     if st.button("Prediksi"):
-        prediksi_serangan_jantung = model.predict([[umur,jenis_kelamin,impulse,tekanan_atas,tekanan_bawah,glukosa,kcm,troponin]])
+        prediksi_serangan_jantung = loaded_model.predict([[umur,jenis_kelamin,impulse,tekanan_atas,tekanan_bawah,glukosa,kcm,troponin]])
         if prediksi_serangan_jantung == 1:
             col4,col5 = st.columns(2)
             with col4:
