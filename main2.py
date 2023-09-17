@@ -1,10 +1,13 @@
 #Import Library
 import streamlit as st
+import seaborn as sns
 import pandas as pd
 import numpy as np
+import plotly.express as px
 import pickle
+import matplotlib.pyplot as plt
+from sklearn import preprocessing
 from sklearn.ensemble import GradientBoostingClassifier
-
 
 #call Model
 model = pickle.load(open('model.pkl',"rb"))
