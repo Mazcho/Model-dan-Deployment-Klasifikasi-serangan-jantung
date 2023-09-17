@@ -9,7 +9,7 @@ from sklearn.ensemble import GradientBoostingClassifier
 
 
 #call Model
-model = pickle.load(open('model.pkl', 'rb'))
+model = pickle.load(open('modelgbr.pkl', 'rb'))
 
 #call data
 #call data
