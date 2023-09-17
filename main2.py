@@ -1,6 +1,6 @@
 #Import Library
 import streamlit as st
-import pickle
+# import pickle
 from sklearn import preprocessing
 from sklearn.ensemble import GradientBoostingClassifier
 
