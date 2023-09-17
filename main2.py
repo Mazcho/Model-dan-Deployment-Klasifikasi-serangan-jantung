@@ -2,15 +2,14 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import pickle
+import joblib
 import matplotlib.pyplot as plt
 from sklearn import preprocessing
 from sklearn.ensemble import GradientBoostingClassifier
 
 
 #call Model
-with open('model1.pkl', 'rb') as model_file:
-    loaded_model = pickle.load(model_file)
+loaded_model = joblib.load('model_gbr.joblib')
 
 #call data
 #call data
