@@ -9,8 +9,11 @@ from sklearn import preprocessing
 from sklearn.ensemble import GradientBoostingClassifier
 
 
-# Load the model using joblib
-model = joblib.load('modelgbr.joblib')
+import pickle
+
+# Load the model from a pickle file
+with open('modelgbr.pkl', 'rb') as file:
+    model = pickle.load(file)
 
 #call data
 #call data
