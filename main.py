@@ -12,8 +12,8 @@ from sklearn.ensemble import GradientBoostingClassifier
 import pickle
 
 # Load the model from a pickle file
-with open('modelgbr.pkl', 'rb') as file:
-    model = pickle.load(file)
+# Load the model using joblib
+model = joblib.load('modelgbr.joblib')
 
 #call data
 #call data
