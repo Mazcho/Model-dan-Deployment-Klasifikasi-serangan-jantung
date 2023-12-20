@@ -15,5 +15,8 @@ Terlihat juga pada grafik confusin matrix. Model mampu menebak data positif deng
 Kalian bisa melihat deploymentnya disini :
 https://model-dan-deployment-klasifikasi-serangan-jantung-xzerx95iewmy.streamlit.app/
 
+Teriumnakasih
+
+
 
 
