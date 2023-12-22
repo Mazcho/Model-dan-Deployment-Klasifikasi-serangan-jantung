@@ -15,6 +15,10 @@ Terlihat juga pada grafik confusin matrix. Model mampu menebak data positif deng
 Kalian bisa melihat deploymentnya disini :
 https://model-dan-deployment-klasifikasi-serangan-jantung-xzerx95iewmy.streamlit.app/
 
+# Apa yang bisa dikembangkan dari Repository ini?
+1. Bisa dikembangkan ke framework lain seperti Flask atau Django
+2. Bisa menerapkan algoritma ini untuk kasus kesehatan berupa data tabular
+3. Melakukan analisis secara rinci untuk gejala gejalanya
 Teriumnakasih
 
 
