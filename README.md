@@ -1,3 +1,5 @@
+# Baca full Review : https://medium.com/@putrantonicholaus/for-newbie-deployment-of-the-gradient-boosting-classifier-model-for-heart-attack-prediction-in-8b61bb16cf45
+
 # Model-dan-Deployment-Klasifikasi-serangan-jantung
 Halo semua! Ini adalah model klasifikasi menggunakan algoritma GradientBoostingRegressor yang dimana menghasilkan akurasi 99% untuk setiap kelasnya dan menghasilkan evaluasi dari model yang maksimal. Di repo ini juga, terdapat file deployment implementasi kedalam website di Streamlit! jangan lupa untuk follow Github ku ya!
 ![image](https://github.com/Mazcho/Model-dan-Deployment-Klasifikasi-serangan-jantung/assets/77985996/f917b649-3429-4733-988c-460222081c9e)
